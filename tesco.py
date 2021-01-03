@@ -23,10 +23,9 @@ def create_twitter_url():
     # start_date = datetime.datetime(2020, 1, 1)
     # end_date = datetime.datetime(2021, 1, 1)
 
-    keyword = "tescomalaysia"
+    q = "q=to:tescomalaysia OR @tescomalaysia OR #tescomalaysia OR tescomalaysia -is:retweet"
     max_results = 100
     mrf = "count={}".format(max_results)
-    q = "q={} @{}".format(keyword, keyword)
     # sdq = "start_time={}".format(start_date)
     # edq = "end_time={}".format(end_date)
 
